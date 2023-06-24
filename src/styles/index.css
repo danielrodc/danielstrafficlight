@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: gray;
+}
+.street-light {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .selected {
+    box-shadow: 0 0 30px #9ecaed;
+    animation: glow 1.5s linear infinite alternate;
+  }
